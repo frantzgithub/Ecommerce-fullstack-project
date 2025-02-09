@@ -101,7 +101,6 @@ header .header-main {
     width: 100%;
 }
 .header-menu {
-    display: none;
     padding-bottom: 32px;
 }
 .header-menu a {
@@ -149,6 +148,9 @@ header .header-main {
         display: none;
     }
     .header-menu {
+        display: none !important;
+    }
+    .header-menu a {
         display: none;
     }
     
